@@ -7,3 +7,6 @@ Python code cheat sheet
     b = set()
 3) python list has append - a.append("1")
 4) python set has add - b.add("1")
+5) python operators
+      1) % - gets reminder 
+      2) // - gets integer quotient
