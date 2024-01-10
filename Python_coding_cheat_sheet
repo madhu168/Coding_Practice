@@ -1,0 +1,9 @@
+Python code cheat sheet
+
+
+1) for finding size of lists or set - len()
+2) defining set or list in python
+    a = list()
+    b = set()
+3) python list has append - a.append("1")
+4) python set has add - b.add("1")
