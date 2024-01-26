@@ -10,3 +10,5 @@ Python code cheat sheet
 5) python operators
       1) % - gets reminder 
       2) // - gets integer quotient
+
+6) There is for else in python, In Python, the else clause in a for loop is executed if the loop iterates over all elements without encountering a break statement. This is a unique feature of Python's for...else construct.
