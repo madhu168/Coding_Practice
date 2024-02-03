@@ -10,5 +10,16 @@ Python code cheat sheet
 5) python operators
       1) % - gets reminder 
       2) // - gets integer quotient
+6) bin() function in python returns the binary version of a specified integer
+7) zfill() - returns a copy of the string with ‘0’ characters padded to the left side of the given string
+8) 
 
-6) There is for else in python, In Python, the else clause in a for loop is executed if the loop iterates over all elements without encountering a break statement. This is a unique feature of Python's for...else construct.
+# Ensure the number is within the 32-bit range
+    number = number & 0xFFFFFFFF
+
+    here we are doing bitwise and to restrict the length of bits to be within 32 bit range
+
+9) ** - operator to find power of a number
+10) >> - The left operand’s value is moved toward right by the number of bits 
+11) << - The left operand’s value is moved toward left by the number of bits 
+
