@@ -22,4 +22,8 @@ Python code cheat sheet
 9) ** - operator to find power of a number
 10) >> - The left operand’s value is moved toward right by the number of bits 
 11) << - The left operand’s value is moved toward left by the number of bits 
-
+12) we can define map like map = {}
+	to check values in key just check in map and for values - map.values()
+	eg code:
+	  if "apple" in map - This checks values in keys
+	  if "apple" in map.values() - This checks values in values itself
