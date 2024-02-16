@@ -27,3 +27,5 @@ Python code cheat sheet
 	eg code:
 	  if "apple" in map - This checks values in keys
 	  if "apple" in map.values() - This checks values in values itself
+
+13) For XOR operation - use this symbol - ^
