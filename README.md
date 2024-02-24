@@ -1,1 +1,1 @@
-Daily Coding Problems
+Why are u here, go practice u idiot
