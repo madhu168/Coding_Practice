@@ -2,8 +2,7 @@ class Solution:
     def subsetHelper(self, nums: list[int], i: int, subSet: list[int], ans: list[list[int]]) -> list[list[int]]:
         #base condition
         if i >= len(nums):
-            if subSet not in ans:
-                ans.append(subSet.copy())
+            ans.append(subSet.copy())
             return
         
         #include i
@@ -12,6 +11,8 @@ class Solution:
         
         #without i
         subSet.pop()
+        while i+1 < len(nums) and nums[i] == nums[i+1]:
+            i += 1
         self.subsetHelper(nums,i+1,subSet,ans)
 
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
